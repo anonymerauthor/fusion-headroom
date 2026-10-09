@@ -1,0 +1,15 @@
+--arch resnet18 --seed 0 --name resnet18_s0
+--arch resnet18 --seed 1 --name resnet18_s1
+--arch resnet18 --seed 2 --name resnet18_s2
+--arch resnet18 --seed 3 --name resnet18_s3
+--arch resnet18 --seed 4 --name resnet18_s4
+--arch wrn16_4 --seed 0 --name wrn16_4_s0
+--arch wrn16_4 --seed 1 --name wrn16_4_s1
+--arch vgg11 --seed 0 --name vgg11_s0
+--arch mobilenetv2 --seed 0 --name mobilenetv2_s0
+--arch densenet --seed 0 --name densenet_s0
+--arch simplecnn --seed 0 --name simplecnn_s0
+--arch resnet18 --seed 10 --name resnet18_short --epochs 8
+--arch resnet18 --seed 11 --name resnet18_frac25 --frac 0.25
+--arch resnet18 --seed 12 --name resnet18_ls --label-smoothing 0.1
+--arch resnet18 --seed 13 --name resnet18_mixup --mixup 0.2
